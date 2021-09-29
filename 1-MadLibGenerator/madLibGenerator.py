@@ -13,7 +13,7 @@ If a {1} could {2} {0}.
 '''
 
 # Word type list
-wordTypeList = ['noun (plural)','noun','verb','reaction','adjective']
+wordTypeList = ['noun (plural)','noun (singular)','verb (Example: \'run\')','reaction (Example: \'surprised\')','adjective']
 
 # List to hold the user's inputs
 chosenWords = []
