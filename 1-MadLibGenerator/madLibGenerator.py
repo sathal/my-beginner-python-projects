@@ -1,8 +1,4 @@
 
 # To run in Atom use Ctrl + i
 
-print('Hello World!')
-
-print('second')
-
-print('third')
+print('We\'re starting our first project here')
