@@ -61,11 +61,9 @@ def addContact():
         print("'" + phoneNumber + "' is not a valid phone number. Must used following format: 9999999999")
         return
 
-    if validateNewContactInformation(firstName,lastName,phoneNumber):
-        # Insert new contact into the initializeDatabase
-        print("Saving to database... (jk)")
-    else:
-        print("One or more of the specified fields included invalid contact information...")
+    # If we get to this point then the data can be considered valid
+
+    insertQuery = "insert into CONTACTS values()"
 
 
 
