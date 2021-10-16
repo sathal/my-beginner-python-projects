@@ -21,6 +21,7 @@ def setup():
 
 def checkGuess(guess):
 	global guessedLetters
+	global secretWord
 	# If user guesses same letter again
 	if guess in guessedLetters:
 		return LETTER_ALREADY_GUESSED
@@ -36,10 +37,19 @@ def checkGuess(guess):
 	return WRONG_GUESS
 
 def lettersRemainToBeGuessed():
+	global secretWord
 	guessesLeft = False
 
-	for i, item in enumerate(secretWord):
-		if secretWord[i].guessed == False:
+	for secretLetter in enumerate(secretWord):
+		# Uncomment the below print statement to see that each secret letter returned from enumerate() is a TUPLE
+		#     Output would look something like this:
+		#        (0, <__main__.WordLetterIndex object at 0x104b2fb80>)
+		#        (1, <__main__.WordLetterIndex object at 0x104b9a7c0>)
+		#        (2, <__main__.WordLetterIndex object at 0x104b9a850>)
+		#        (3, <__main__.WordLetterIndex object at 0x104b9a910>)
+		#        .....
+		#print(secretLetter)
+		if secretLetter[1].guessed == False:
 			guessesLeft = True
 			break
 	return guessesLeft
