@@ -1,9 +1,0 @@
-contactBook.py - this is the Python file which needs to be run for the project
-
-dbUtils.py - utility module used by contactBook.py
-
-contactBook - database file used by dbUtils.py
-
-dbtest.py - just a Python script which was used for testing out things
-
-testdb - database file used by dbtest.py

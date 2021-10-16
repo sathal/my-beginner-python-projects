@@ -8,7 +8,7 @@ correctlyGuessed = False
 # While you have not guessed correctly continue to loop
 while not correctlyGuessed :
 	guess = int(input("Try to guess the random number\n"))
-	
+
 	if guess == secretNumber :
 		correctlyGuessed = True
 	elif guess < secretNumber:
@@ -17,12 +17,3 @@ while not correctlyGuessed :
 		print("Too high!  \_(._.)_/")
 
 print("You got it!")
-
-
-
-
-
-
-
-
-
