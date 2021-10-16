@@ -12,3 +12,4 @@ https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/
 - [x] Formatting strings via format() method and curly braces (*See [Mad Lib Generator](https://github.com/sathal/python-projects/blob/master/1-MadLibGenerator/madLibGenerator.py#L38) - [Formatted String](https://github.com/sathal/python-projects/blob/master/1-MadLibGenerator/madLibGenerator.py#L10)*)
 - [x] Use of *Random* module (*See [Number Guessing](https://github.com/sathal/python-projects/blob/master/2-NumberGuessing/numberguessing.py#L3)*)
 - [x] Use of While Loops (*See [Number Guessing](https://github.com/sathal/python-projects/blob/master/2-NumberGuessing/numberguessing.py#L9)*)
+- [x] Use of enumerate() to iterate over list of objects (*See [Hangman](https://github.com/sathal/python-projects/blob/master/5-Hangman/hangman.py#L43)*)
