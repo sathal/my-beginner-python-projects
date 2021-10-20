@@ -1,0 +1,1 @@
+The UsingContactObjectToInteractWithDatabase folder is really the same as dbtest.py and dbtestutils.py - the only difference is that the code under UsingContactObjectToInteractWithDatabase is making use of a "Contact" object for interactions with the sqlite database
